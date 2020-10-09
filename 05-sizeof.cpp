@@ -5,7 +5,7 @@
 
 int main() {
   printf(
-    "%d %d %d %d %d %d %d\n",
+    "%d %d %d %d %d %d\n",
     sizeof(char),
     sizeof(short),
     sizeof(long),
