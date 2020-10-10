@@ -2,6 +2,9 @@
 
 int main() {
   int choice;
+
+  makeChoise:
+
   printf("New Game : 1\n");
   printf("Continue : 2\n");
   printf("Setting : 3\n");
@@ -22,6 +25,7 @@ int main() {
       printf("Credit\n");
       break;
     default :
-      printf("Something Wrong");
+      printf("Something Wrong. Please re-enter\n");
+      goto makeChoise;
   }
 }
