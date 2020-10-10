@@ -8,15 +8,20 @@ int main() {
   printf("Credit : 4\n");
   scanf("%d", &choice);
 
-  if ( choice == 1 ) {
-    printf("New Game\n");
-  } else if ( choice == 2 ) {
-    printf("Continue\n");
-  } else if ( choice == 3) {
-    printf("Setting\n");
-  } else if ( choice == 4) {
-    printf("Credit\n");
-  } else {
-    printf("Something Wrong");
+  switch ( choice ) {
+    case 1 :
+      printf("New Game\n");
+      break;
+    case 2 :
+      printf("Continue\n");
+      break;
+    case 3 :
+      printf("Setting\n");
+      break;
+    case 4 :
+      printf("Credit\n");
+      break;
+    default :
+      printf("Something Wrong");
   }
 }
