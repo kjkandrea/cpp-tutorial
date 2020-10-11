@@ -2,7 +2,6 @@
 
 int main() {
   int n;
-  int runCount;
 
   printf("몇 층 짜리 홀수 계단을 만들까요? : ");
   scanf("%d", &n);
