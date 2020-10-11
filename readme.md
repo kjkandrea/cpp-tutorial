@@ -53,4 +53,13 @@ boolean. 참과 거짓을 저장. ( = char )
 
 ## break, continue
 
+`for`, `switch` 문 안에서 break, continue 문을 사용할 수 있다.
+
+* `break` : 현재 반복문, 스위치문에서 빠져나감.
+* `continue` : 반복문의 현재 반복 에서 빠져나간후 다음 반복을 실행함.
+
+## pointer : 포인터
+
+변수의 주소를 저장하는 변수이다. 변수의 주소가 저장이 된다. (쉬워보이는데?)
+
 
