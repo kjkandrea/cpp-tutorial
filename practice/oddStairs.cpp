@@ -8,8 +8,8 @@ int main() {
   scanf("%d", &n);
 
   for (int i = 1; i <= n; i++) { // n번 반복
-    for (int j = 1;j < i * 2; j++) {
-      if (j % 2) printf("%d ", j);
+    for (int j = 1;j < i; j++) {
+      printf("%d ", 2 * j - 1);
     }
     printf("\n");
   }
